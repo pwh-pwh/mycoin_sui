@@ -2,6 +2,8 @@ module my_coin::my_coin {
     use sui::coin::{Self, Coin, TreasuryCap};
     use sui::url::{Self};
 
+    // testnet package id:0xb348eb4b51b41b3dec746fde61b609849b52259e4d279cbf3b9fc269c28c9cf4 creator:0x6b1d06a358a3dbcf61c0f17bfa3813c199c1f23b90f0e8aa7fbfa9e9433c4f9c
+
     /// 代币的结构体，必须是模块名的大写版本
     public struct MY_COIN has drop {}
 
